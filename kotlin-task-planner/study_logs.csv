@@ -1,0 +1,19 @@
+2026-07-06;Planning;Reviewing C# requirements and creating catch-up schedule;2.0
+2026-07-06;Research;Studying C# syntax classes lists and stream writer methods;2.0
+2026-07-07;Implementation;Building console menu system and StudyLog class;2.0
+2026-07-07;Implementation;Adding log display functions and calculating study hours;2.0
+2026-07-08;Testing;Validating user input and handling format error exceptions;2.0
+2026-07-08;Documentation;Drafting C# program README file and code comments;2.0
+2026-07-13;Planning;Setting up R environment in VS Code and setting analysis goals;2.0
+2026-07-14;Research;Learning R data frames vectors and summary statistics functions;2.0
+2026-07-15;Implementation;Creating analyzer.R script and importing study_logs.csv data;2.0
+2026-07-16;Implementation;Adding R calculations for total hours and category totals;2.0
+2026-07-17;Troubleshooting;Fixing CSV import headers and correcting data column types;1.5
+2026-07-18;Documentation;Writing notes on R data structures and updating log entries;0.5
+2026-07-20;Implementation;Generating bar chart of study categories using R graphics;2.0
+2026-07-21;Implementation;Formatting terminal summary output tables for better readability;2.0
+2026-07-22;Testing;Running script with test entries and verifying plot images;2.0
+2026-07-23;Documentation;Finalizing module documentation and explaining core R functions;1.5
+2026-07-24;Video production;Recording video demonstration showing script and generated charts;1.5
+2026-07-25;Publishing;Finalizing repository structure and preparing submission links;1.0
+2026-08-04;Implementation;testing a new input;2.0
