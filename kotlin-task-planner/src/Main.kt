@@ -5,14 +5,14 @@ import java.util.Scanner
 import javax.swing.*
 import javax.swing.table.DefaultTableModel
 
-// Categorias padrão partilhadas
+// Shared default categories
 val STUDY_CATEGORIES = listOf(
     "Planning", "Research", "Implementation",
     "Troubleshooting", "Documentation", "Video Production", "Publishing"
 )
 
 // ==============================================================================
-// 1. MODO CONSOLA (CLI) - Com todas as funcionalidades do C#
+// 1. CONSOLE MODE (CLI) - With all C# functionalities
 // ==============================================================================
 class StudyTrackerCLI(private val filePath: String = "study_logs.csv") {
     private val logs = mutableListOf<StudyLog>()
@@ -137,7 +137,7 @@ class StudyTrackerCLI(private val filePath: String = "study_logs.csv") {
 }
 
 // ==============================================================================
-// 2. MODO GRÁFICO (GUI) - Com todas as funcionalidades do C#
+// 2. GRAPHICAL MODE (GUI) - With all C# functionalities
 // ==============================================================================
 class StudyTrackerGUI : JFrame("Study Time Tracker - Kotlin GUI") {
     private val logs = mutableListOf<StudyLog>()
@@ -155,16 +155,16 @@ class StudyTrackerGUI : JFrame("Study Time Tracker - Kotlin GUI") {
 
         loadFromCsv()
 
-        // Cabeçalho
+        // Header
         val titleLabel = JLabel("Study Time Tracker", SwingConstants.CENTER)
         titleLabel.font = Font("Arial", Font.BOLD, 20)
         titleLabel.border = BorderFactory.createEmptyBorder(10, 10, 10, 10)
         add(titleLabel, BorderLayout.NORTH)
 
-        // Tabela central
+        // Central table
         add(JScrollPane(table), BorderLayout.CENTER)
 
-        // Painel de Botões (Igual ao C#)
+        // Button Panel (Same as C#)
         val buttonPanel = JPanel(FlowLayout(FlowLayout.CENTER, 10, 10))
         val btnAdd = JButton("Add Study Log")
         val btnSummary = JButton("Show Summary")
@@ -181,7 +181,7 @@ class StudyTrackerGUI : JFrame("Study Time Tracker - Kotlin GUI") {
 
         add(bottomPanel, BorderLayout.SOUTH)
 
-        // Eventos dos Botões
+        // Button Events
         btnAdd.addActionListener { openAddLogDialog() }
         btnSummary.addActionListener { showSummaryDialog() }
         btnReload.addActionListener {

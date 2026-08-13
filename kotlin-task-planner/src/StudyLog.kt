@@ -1,6 +1,6 @@
 import java.util.Locale
 
-// Modelo de Dados idêntico ao C#
+// Same data model in C#
 data class StudyLog(
     val date: String,
     val category: String,
